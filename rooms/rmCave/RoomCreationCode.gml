@@ -8,38 +8,38 @@ for  (i = 340; i > 20; i -= 25){
 		r = random(100);
 		
 		//generate stone
-		if(r > 0 && r < 50){
+		if(r > 0 && r <= 50){
   			if(random(10) > 9){
 				x = j; 
 				y = i;
-				//generate tree
+				//generate stone
 				instance_create_layer(x, y, "Instances", oStone )
 			}
 		}	
 		//generate iron
-		if(r > 50 && r < 70){
+		if(r > 50 && r <= 70){
 			if(random(10) > 9){
 				x = j; 
 				y = i;
-				//generate tree
+				//generate iron
 				instance_create_layer(x, y, "Instances", oIronOre )
 			}
 		}	
 		//generate gold
-		if(r > 70 && r < 85){
+		if(r > 70 && r <= 85){
 			if(random(10) > 9){
 				x = j; 
 				y = i;
-				//generate tree
+				//generate gold
 				instance_create_layer(x, y, "Instances", oGoldOre )
 			}
 		}
 		//generate diamond
-		if(r > 85 && r < 100){
+		if(r > 85 && r <= 100){
 			if(random(10) > 9){
 				x = j; 
 				y = i;
-				//generate tree
+				//generate diamond
 				instance_create_layer(x, y, "Instances", oDiamondOre )
 			}
 		}
