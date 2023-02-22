@@ -19,7 +19,7 @@
     "name": "sCaveFloor",
     "path": "sprites/sCaveFloor/sCaveFloor.yy",
   },
-  "spriteNoExport": true,
+  "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
