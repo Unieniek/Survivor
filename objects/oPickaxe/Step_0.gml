@@ -12,6 +12,7 @@ with(_breakable){
 	//get distance
 	var _dist = distance_to_object(oPlayer);
 	
+	
 	//in range?
 	if(_dist < other.breakInstance){
 		

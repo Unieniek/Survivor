@@ -2,6 +2,7 @@ audio_play_sound(snSoundtrack, 1, true);
 show_debug_message(random(200));
 
 
+
 //world generation
 //first loop for selecting row "y"
 for (i = 1580; i > 20; i -= 20){
@@ -13,7 +14,7 @@ for (i = 1580; i > 20; i -= 20){
 		
 		if(random(4) > 1){
 			if(random(10) > 9){
-				x = j;
+				x = j; 
 				y = i;
 				//generate tree
 				instance_create_layer(x, y, "Instances", oTree )
@@ -26,5 +27,5 @@ for (i = 1580; i > 20; i -= 20){
 				instance_create_layer(x, y, "Instances", oAppleTree)
 			}
 		}
-	}
+ 	}
 }

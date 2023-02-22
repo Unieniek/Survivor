@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rmCave",
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rmCave/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
@@ -31,10 +31,10 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "roomSettings": {
-    "Height": 384,
+    "Height": 340,
     "inheritRoomSettings": false,
     "persistent": false,
-    "Width": 683,
+    "Width": 680,
   },
   "sequenceId": null,
   "views": [

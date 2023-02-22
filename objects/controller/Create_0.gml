@@ -1,4 +1,5 @@
 //camera resolution
+randomize();
 enum RES {
 	WIDTH = 320,
 	HEIGHT = 180,
