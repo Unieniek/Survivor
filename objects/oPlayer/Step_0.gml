@@ -67,15 +67,26 @@ if(sapling_cooldown > 0){
 sapling_cooldown --;
 }
 
+//japierdole nie mam ni chuja pojecia jak to opisac ale dziala i chuj
 var _list = controller.invList;
+var _listSize = ds_list_size(_list);
+
+for (var i = 0; i<_listSize; i++){
+var _arr = controller.invList[| i];
+var _item = _arr[0];
+var _count = _arr[1];
+show_debug_message(_item);
+show_debug_message(_count);
+
 
 //placing a sapling
-if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32 && inv_add(ITEM.SAPLING, ) > 0){
+if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32 && _item = 6 && _count > 0){
 inv_add(ITEM.SAPLING, -1);
+
 instance_create_layer(mouse_x, mouse_y,"Instances", oSapling);
 sapling_cooldown = 100;
 }
-
+}
 
 
 
