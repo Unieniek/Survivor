@@ -48,6 +48,7 @@
     {"name":"Sprite20","order":7,"path":"sprites/Sprite20/Sprite20.yy",},
     {"name":"oCave","order":8,"path":"objects/oCave/oCave.yy",},
     {"name":"sGoldOre","order":4,"path":"sprites/sGoldOre/sGoldOre.yy",},
+    {"name":"inv_remove","order":1,"path":"scripts/inv_remove/inv_remove.yy",},
     {"name":"oIronOre","order":6,"path":"objects/oIronOre/oIronOre.yy",},
     {"name":"sCaveFloor","order":9,"path":"sprites/sCaveFloor/sCaveFloor.yy",},
     {"name":"Collision","order":2,"path":"sprites/Collision/Collision.yy",},

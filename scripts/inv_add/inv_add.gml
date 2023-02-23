@@ -33,7 +33,7 @@ if (_listSize >= INV_SIZE){
 
  //create new array
  var _arr = [_item, _count];
- ds_list_add(_list, _arr);
+ ds_list_add(_list,arr);
 
 return true;
 }

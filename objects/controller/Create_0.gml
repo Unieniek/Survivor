@@ -18,7 +18,7 @@ view_set_camera(0, _camera);
 invList = ds_list_create();
 
 //pause
-pause =false;
+pause = false;
 
 //pause surface (it saves last frame of the game)
 pauseSurf = -1;

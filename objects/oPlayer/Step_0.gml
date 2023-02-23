@@ -1,11 +1,11 @@
- //zmienne do przycisków
+ //keyboard press variable
 var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 var _up = keyboard_check(vk_up) or keyboard_check(ord("W"));
 var _down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
 
-//zmienna wejściowa
+//input variable
 var _inputX = _right - _left;
 var _inputY = _down - _up;
 
@@ -59,13 +59,19 @@ if(cave_dist <= 30 && keyboard_check(ord("E")) ){
 room_goto(rmCave);
 
 }
-
+//placing a sapling
+//distance to mouse pointer
 var _placable = distance_to_object(oMouse);
+//decreasing a cooldown
 if(sapling_cooldown > 0){
 sapling_cooldown --;
 }
 
-if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32){
+var _list = controller.invList;
+
+//placing a sapling
+if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32 && inv_add(ITEM.SAPLING, ) > 0){
+inv_add(ITEM.SAPLING, -1);
 instance_create_layer(mouse_x, mouse_y,"Instances", oSapling);
 sapling_cooldown = 100;
 }

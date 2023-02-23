@@ -72,6 +72,7 @@
     {"id":{"name":"oCave","path":"objects/oCave/oCave.yy",},"order":8,},
     {"id":{"name":"sGoldOre","path":"sprites/sGoldOre/sGoldOre.yy",},"order":4,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":0,},
+    {"id":{"name":"inv_remove","path":"scripts/inv_remove/inv_remove.yy",},"order":1,},
     {"id":{"name":"oIronOre","path":"objects/oIronOre/oIronOre.yy",},"order":6,},
     {"id":{"name":"sCaveFloor","path":"sprites/sCaveFloor/sCaveFloor.yy",},"order":9,},
     {"id":{"name":"snHit","path":"sounds/snHit/snHit.yy",},"order":0,},
