@@ -1,4 +1,2 @@
-//cooldown in seconds
-cooldown = 3;
-
-
+//creating growth cooldown
+cooldown = 200;

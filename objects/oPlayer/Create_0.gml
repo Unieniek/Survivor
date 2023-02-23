@@ -12,3 +12,6 @@ cave_dist = 0;
 //create pickaxe
 heldItem = instance_create_layer(x, y, "Instances", oPickaxe);
 
+//placing sapling cooldown
+sapling_cooldown = 100;
+

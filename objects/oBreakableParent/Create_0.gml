@@ -7,6 +7,6 @@ hpMax = hp;
 //gui
 hpHeight = 3;
 
-if (distance_to_object(oPlayer)< 50){
+if (distance_to_object(oPlayer)< 30 && layer_exists("Instances")){
 instance_destroy(self);
 }

@@ -42,6 +42,7 @@
   "resources": [
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},"order":2,},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"order":9,},
+    {"id":{"name":"oMouse","path":"objects/oMouse/oMouse.yy",},"order":3,},
     {"id":{"name":"oSapling","path":"objects/oSapling/oSapling.yy",},"order":10,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":1,},
     {"id":{"name":"rmlinit","path":"rooms/rmlinit/rmlinit.yy",},"order":1,},
@@ -65,6 +66,7 @@
     {"id":{"name":"controller","path":"objects/controller/controller.yy",},"order":1,},
     {"id":{"name":"sIronDrop","path":"sprites/sIronDrop/sIronDrop.yy",},"order":2,},
     {"id":{"name":"background","path":"sprites/background/background.yy",},"order":0,},
+    {"id":{"name":"sMouse","path":"sprites/sMouse/sMouse.yy",},"order":1,},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":7,},
     {"id":{"name":"sAppleTree","path":"sprites/sAppleTree/sAppleTree.yy",},"order":0,},
     {"id":{"name":"oCave","path":"objects/oCave/oCave.yy",},"order":8,},

@@ -5,7 +5,7 @@ gml_pragma("global", "init()");
 
 //constant value
 enum ITEM {
-	APPLE, DIAMOND, GOLD, IRON, LOG, STONE
+	APPLE, DIAMOND, GOLD, IRON, LOG, STONE, SAPLING
 
 }
 global.itemSprite[ITEM.APPLE] = sAppleDrop;
@@ -14,6 +14,7 @@ global.itemSprite[ITEM.GOLD] = sGoldDrop;
 global.itemSprite[ITEM.IRON] = sIronDrop;
 global.itemSprite[ITEM.LOG] = sLogDrop;
 global.itemSprite[ITEM.STONE] = sStoneDrop;
+global.itemSprite[ITEM.SAPLING] = sSapling;
 
 
 //max number of items in inventory (macro is a global constant)

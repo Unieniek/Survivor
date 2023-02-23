@@ -54,10 +54,20 @@ if (moveX != 0 && sign(moveX) != _signMouse){
 else{
 image_speed = 1;
 }
-
+//entering the cave
 if(cave_dist <= 30 && keyboard_check(ord("E")) ){
 room_goto(rmCave);
 
+}
+
+var _placable = distance_to_object(oMouse);
+if(sapling_cooldown > 0){
+sapling_cooldown --;
+}
+
+if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32){
+instance_create_layer(mouse_x, mouse_y,"Instances", oSapling);
+sapling_cooldown = 100;
 }
 
 

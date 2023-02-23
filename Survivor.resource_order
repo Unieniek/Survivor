@@ -26,6 +26,7 @@
   "ResourceOrderSettings": [
     {"name":"oTree","order":2,"path":"objects/oTree/oTree.yy",},
     {"name":"oCollision","order":9,"path":"objects/oCollision/oCollision.yy",},
+    {"name":"oMouse","order":3,"path":"objects/oMouse/oMouse.yy",},
     {"name":"oSapling","order":10,"path":"objects/oSapling/oSapling.yy",},
     {"name":"init","order":1,"path":"scripts/init/init.yy",},
     {"name":"rmlinit","order":1,"path":"rooms/rmlinit/rmlinit.yy",},
@@ -43,6 +44,7 @@
     {"name":"sStone","order":5,"path":"sprites/sStone/sStone.yy",},
     {"name":"controller","order":1,"path":"objects/controller/controller.yy",},
     {"name":"sIronDrop","order":2,"path":"sprites/sIronDrop/sIronDrop.yy",},
+    {"name":"sMouse","order":1,"path":"sprites/sMouse/sMouse.yy",},
     {"name":"Sprite20","order":7,"path":"sprites/Sprite20/Sprite20.yy",},
     {"name":"oCave","order":8,"path":"objects/oCave/oCave.yy",},
     {"name":"sGoldOre","order":4,"path":"sprites/sGoldOre/sGoldOre.yy",},

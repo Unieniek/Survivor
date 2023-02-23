@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-res = [ITEM.LOG];
+res = [ITEM.LOG, ITEM.SAPLING];

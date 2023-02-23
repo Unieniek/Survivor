@@ -5,4 +5,4 @@
 event_inherited();
 
 
-res = [ITEM.APPLE, ITEM.LOG];
+res = [ITEM.APPLE, ITEM.LOG, ITEM.SAPLING];
