@@ -42,6 +42,7 @@
   "resources": [
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},"order":2,},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"order":9,},
+    {"id":{"name":"oSapling","path":"objects/oSapling/oSapling.yy",},"order":10,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":1,},
     {"id":{"name":"rmlinit","path":"rooms/rmlinit/rmlinit.yy",},"order":1,},
     {"id":{"name":"sLogDrop","path":"sprites/sLogDrop/sLogDrop.yy",},"order":4,},
@@ -76,6 +77,7 @@
     {"id":{"name":"oPickaxe","path":"objects/oPickaxe/oPickaxe.yy",},"order":3,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"snPickUp","path":"sounds/snPickUp/snPickUp.yy",},"order":1,},
+    {"id":{"name":"sSapling","path":"sprites/sSapling/sSapling.yy",},"order":1,},
     {"id":{"name":"sWalk","path":"sprites/sWalk/sWalk.yy",},"order":5,},
     {"id":{"name":"snSoundtrack","path":"sounds/snSoundtrack/snSoundtrack.yy",},"order":2,},
     {"id":{"name":"sStoneDrop","path":"sprites/sStoneDrop/sStoneDrop.yy",},"order":5,},

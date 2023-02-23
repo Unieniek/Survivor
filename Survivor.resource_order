@@ -26,6 +26,7 @@
   "ResourceOrderSettings": [
     {"name":"oTree","order":2,"path":"objects/oTree/oTree.yy",},
     {"name":"oCollision","order":9,"path":"objects/oCollision/oCollision.yy",},
+    {"name":"oSapling","order":10,"path":"objects/oSapling/oSapling.yy",},
     {"name":"init","order":1,"path":"scripts/init/init.yy",},
     {"name":"rmlinit","order":1,"path":"rooms/rmlinit/rmlinit.yy",},
     {"name":"sLogDrop","order":4,"path":"sprites/sLogDrop/sLogDrop.yy",},
@@ -50,6 +51,7 @@
     {"name":"Collision","order":2,"path":"sprites/Collision/Collision.yy",},
     {"name":"oPickaxe","order":3,"path":"objects/oPickaxe/oPickaxe.yy",},
     {"name":"snPickUp","order":1,"path":"sounds/snPickUp/snPickUp.yy",},
+    {"name":"sSapling","order":1,"path":"sprites/sSapling/sSapling.yy",},
     {"name":"sWalk","order":5,"path":"sprites/sWalk/sWalk.yy",},
     {"name":"snSoundtrack","order":2,"path":"sounds/snSoundtrack/snSoundtrack.yy",},
     {"name":"sStoneDrop","order":5,"path":"sprites/sStoneDrop/sStoneDrop.yy",},

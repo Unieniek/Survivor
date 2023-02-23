@@ -1,0 +1,1 @@
+instance_place(x, y, oTree);
