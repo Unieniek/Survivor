@@ -1,5 +1,5 @@
-audio_play_sound(snSoundtrack, 1, true);
-show_debug_message(random(200));
+//audio_play_sound(snSoundtrack, 1, true);
+
 
 
 

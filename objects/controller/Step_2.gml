@@ -3,7 +3,7 @@ var _heldItem = noone;
 
 if (_playerExists) _heldItem = oPlayer.heldItem;
 
-with (all){
+with (oBreakableParent && oCave){
 	depth = -bbox_bottom;
 	if(_playerExists && _heldItem == id){
 	depth -= 10;
