@@ -36,59 +36,52 @@ if(keyboard_check_pressed(vk_enter)){
 					splits[slot] = str2; //add this split to the array of all splits
 					slot++;
 					str2 = "";
-					
-					
 				} else {
 					str2 = str2 + currStr;
 					splits[slot] = str2;
 				}
-				if(keyboard_check_pressed(vk_enter)){
-					if(splits[0] == "give" && slot>2){
-					show_debug_message(splits);
-					var _item = splits[1];
-						if (_item == "ITEM.SAPLING"){
-							var _count = splits[2];
-							show_debug_message(_item);
-							show_debug_message(_count);
-							inv_add(ITEM.SAPLING, splits[2]);
-							clicked = false;
-						}			
-				}
-				}
+				
+					if(keyboard_check_pressed(vk_enter)){
+						if(splits[0] == "give" && slot>2){
+						var _item = splits[1];
+						var _count = splits[2];
+							if (_item == "sapling"){
+								inv_add(_item, splits[2]);
+								clicked = false;
+							}
+							if(_item == "log"){
+								inv_add(ITEM.LOG, splits[2]);
+								clicked = false;
+							}
+							if(_item == "apple"){
+								inv_add(ITEM.APPLE, splits[2]);
+								clicked = false;
+							}
+							if(_item == "stone"){
+								inv_add(ITEM.STONE, splits[2]);
+								clicked = false;
+							}
+							if(_item == "iron"){
+								inv_add(ITEM.IRON, splits[2]);
+								clicked = false;
+							}
+							if(_item == "diamond"){
+								inv_add(ITEM.DIAMOND, splits[2]);
+								clicked = false;
+							}
+							
+							if(_item == "gold"){
+								inv_add(ITEM.GOLD, splits[2]);
+								clicked = false;
+							}
+							
+						}
+					}
 		}
 		
 }
-//if(splits[0] = give){
-//	show_debug_message("dziala");
-////}
-//if(keyboard_check_pressed(vk_enter)){
-//show_debug_message(" 1 slowo " + splits[0]);
-//show_debug_message(" 2 slowo " + splits[1]);
-//show_debug_message(" 3 slowo " + splits[2]);
-//}
-//	var _space = string_pos_ext(" ", _message, 1);
-//	_messageWords1 = string_copy(_message, 1, _space);
-//	//var ms1l = string_length(_messageWords1);
-
-//	var _space2 = string_pos_ext(" ", _message, _space + 1);
-//	_messageWords2 = string_copy(_message, _space + 1,  _space2);
-//	//var ms2l = (string_length(_messageWords2) + string_length(_messageWords1));
-	
-//	var _space3 = string_pos_ext(" ", _message, _space2 + 1);
-//	_messageWords3 = string_copy(_message, _space2 + 1, _space3);
-
-
-//if(keyboard_check_pressed(vk_enter)){
-//show_debug_message(" 1 slowo " + _messageWords1);
-//show_debug_message(" 2 slowo " + _messageWords2);
-//show_debug_message(" 3 slowo " + _messageWords3);
-//}
-
-	if(_message = "give sapling 5"){
-		inv_add(ITEM.SAPLING, 5);
-		clicked = false;
-	}
 }
 if(clicked = false){
 keyboard_string = 0;
+sprite_index = sCommandBox;
 }
