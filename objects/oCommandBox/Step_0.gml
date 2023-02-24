@@ -1,7 +1,6 @@
-_message = keyboard_string;
-
 x = oPlayer.x - 150;
 y = oPlayer.y + 80;
+
 
 if (oPlayer.x < 160){
 x = (oPlayer.x - 150) + (160 - oPlayer.x);
