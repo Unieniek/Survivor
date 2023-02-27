@@ -9,3 +9,8 @@ res = [ITEM.APPLE];
 //hp = 12;
 hp = 4;
 hpMax = hp;
+
+moveSpeed = 1;
+
+moveX = 0;
+moveY = 0;

@@ -9,7 +9,9 @@ var _down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 var _inputX = _right - _left;
 var _inputY = _down - _up;
 
+//distance to cave
 var cave_dist = distance_to_object(oCave);
+
 //movement speed
 moveX = _inputX * moveSpeed;
 moveY = _inputY * moveSpeed;
