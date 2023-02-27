@@ -15,3 +15,9 @@ heldItem = instance_create_layer(x, y, "Instances", oPickaxe);
 //placing sapling cooldown
 sapling_cooldown = 100;
 
+
+//hit cooldown
+hcooldown = 0;
+
+
+

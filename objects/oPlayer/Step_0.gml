@@ -29,6 +29,7 @@ if (collision(x, y + moveY)){
 	}
 	moveY = 0;
 }
+if(keyboard_check_pressed(ord("")))
 //move
 x += moveX;
 y += moveY;
@@ -77,18 +78,51 @@ for (var i = 0; i<_listSize; i++){
 var _arr = controller.invList[| i];
 var _item = _arr[0];
 var _count = _arr[1];
-show_debug_message(_item);
-show_debug_message(_count);
 
 
-//placing a sapling
-if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32 && _item = 6 && _count > 0){
-inv_add(ITEM.SAPLING, -1);
 
-instance_create_layer(mouse_x, mouse_y,"Instances", oSapling);
-sapling_cooldown = 100;
+
+	if(controller.aors = true){
+		//placing a sapling
+		if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32 && _item = 6 && _count > 0){
+			show_debug_message("chuj1")
+		inv_add(ITEM.SAPLING, -1);
+	
+		instance_create_layer(mouse_x, mouse_y,"Instances", oSapling);
+		sapling_cooldown = 100;
+		}
+	}else if (controller.aors = false){
+		
+		if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _item = 0 && _count > 0){
+			show_debug_message("Chuj2")
+			if(controller.hp <= 5){
+			inv_add(ITEM.APPLE, -1);
+			controller.hp += 5;
+			
+			}else if(controller.hp > 5 && controller.hp <10){
+			inv_add(ITEM.APPLE, -1);
+			controller.hp = 10;
+			}else if(controller.hp = 10){
+			controller.hp = 10;
+			}
+		sapling_cooldown = 100;
+		}
+
+	}	
 }
-}
+		
 
+if(distance_to_object(oEnemyParent) < 6){
+	if(hcooldown > 0){
+	hcooldown--;
+	}
+	
+	if(hcooldown = 0){
+	controller.hp--;
+	hcooldown = 30;
+	show_debug_message(controller.hp);
+	}
+
+}
 
 

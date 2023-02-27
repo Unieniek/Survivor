@@ -1,0 +1,1 @@
+//draw_rectangle(oPlayer.x - 150, oPlayer.y - 80, oPlayer.x - 100, oPlayer.y - 50, 0);

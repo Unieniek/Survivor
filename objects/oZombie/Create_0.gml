@@ -10,7 +10,7 @@ res = [ITEM.APPLE];
 hp = 4;
 hpMax = hp;
 
-moveSpeed = 1;
+moveSpeed = 0.5;
 
 moveX = 0;
 moveY = 0;
@@ -22,4 +22,7 @@ time = 0;
 xgoto = x;
 
 //goto y
-ygoto = 0;
+ygoto = y;
+
+//wait time
+_stop = 100;
