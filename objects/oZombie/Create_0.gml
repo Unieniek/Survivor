@@ -14,3 +14,12 @@ moveSpeed = 1;
 
 moveX = 0;
 moveY = 0;
+
+//time idk
+time = 0;
+
+//goto x
+xgoto = x;
+
+//goto y
+ygoto = 0;
