@@ -27,6 +27,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"sLog","order":9,"path":"sprites/sLog/sLog.yy",},
     {"name":"oTree","order":2,"path":"objects/oTree/oTree.yy",},
     {"name":"oCollision","order":9,"path":"objects/oCollision/oCollision.yy",},
     {"name":"oMouse","order":3,"path":"objects/oMouse/oMouse.yy",},
@@ -55,6 +56,7 @@
     {"name":"Sprite20","order":7,"path":"sprites/Sprite20/Sprite20.yy",},
     {"name":"oCave","order":8,"path":"objects/oCave/oCave.yy",},
     {"name":"sZombieIdle","order":3,"path":"sprites/sZombieIdle/sZombieIdle.yy",},
+    {"name":"oLog","order":11,"path":"objects/oLog/oLog.yy",},
     {"name":"sGoldOre","order":4,"path":"sprites/sGoldOre/sGoldOre.yy",},
     {"name":"inv_remove","order":1,"path":"scripts/inv_remove/inv_remove.yy",},
     {"name":"oIronOre","order":6,"path":"objects/oIronOre/oIronOre.yy",},
@@ -69,6 +71,7 @@
     {"name":"sStoneDrop","order":5,"path":"sprites/sStoneDrop/sStoneDrop.yy",},
     {"name":"oBreakableParent","order":1,"path":"objects/oBreakableParent/oBreakableParent.yy",},
     {"name":"oStartScreen","order":2,"path":"objects/oStartScreen/oStartScreen.yy",},
+    {"name":"rmDeath","order":4,"path":"rooms/rmDeath/rmDeath.yy",},
     {"name":"sTree","order":1,"path":"sprites/sTree/sTree.yy",},
     {"name":"sZombieWalk","order":2,"path":"sprites/sZombieWalk/sZombieWalk.yy",},
     {"name":"oGoldOre","order":7,"path":"objects/oGoldOre/oGoldOre.yy",},

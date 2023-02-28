@@ -19,6 +19,8 @@
 //	//draw counter
 //	draw_text(_x + 4, _y - 2, _count);
 //}
+
+
 var _x = 8;
 var _y = 8;
 var _amount = hp/hpMax;
@@ -29,7 +31,7 @@ draw_rectangle(_x, _y, _x + 50 * _amount, _y + 10, 0);
 draw_set_color(0);
 //draw_set_halign(fa_left);
 //draw_set_valign(fa_middle);
-draw_text(_x + 25, _y + 5  , hp);
+draw_text(_x + 2, _y + 5  , hp);
 
 draw_rectangle(_x, _y, _x + 50, _y + 10, 1);
 
@@ -48,12 +50,15 @@ if(keyboard_check_pressed(ord("M"))){
 	tandd = false;
 	}
 }
-if(time > -10000){
-time--;
-}
-if(time = -10000){
-time = 10000;
-}
+if(!pause){
+	if(time > -10000){
+	time--;
+	}
+	if(time = -10000){
+	time = 10000;
+	}
+}	
+//time and spawning zombies at night
 if(time <= 5000 && time > 4000 or time > -5000 && time <= -4000){
 	draw_set_alpha(0.1);
 	draw_rectangle(0, 0 , 320, 180, 0);

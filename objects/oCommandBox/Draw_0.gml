@@ -78,6 +78,7 @@ if(keyboard_check_pressed(vk_enter)){
 						}
 						else if(splits[0] = "god"){
 						controller.hp = 100000;
+						controller.hpMax = 100000;
 						}
 					}
 		}

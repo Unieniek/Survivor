@@ -40,4 +40,4 @@ tandd =false;
 cooldown = 100;
 
 //time 
-time = 1000;
+time = 10000;

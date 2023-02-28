@@ -46,6 +46,7 @@
     "IDEVersion": "2023.1.1.62",
   },
   "resources": [
+    {"id":{"name":"sLog","path":"sprites/sLog/sLog.yy",},"order":9,},
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},"order":2,},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"order":9,},
     {"id":{"name":"oJC","path":"objects/oJC/oJC.yy",},"order":0,},
@@ -83,6 +84,7 @@
     {"id":{"name":"sAppleTree","path":"sprites/sAppleTree/sAppleTree.yy",},"order":0,},
     {"id":{"name":"oCave","path":"objects/oCave/oCave.yy",},"order":8,},
     {"id":{"name":"sZombieIdle","path":"sprites/sZombieIdle/sZombieIdle.yy",},"order":3,},
+    {"id":{"name":"oLog","path":"objects/oLog/oLog.yy",},"order":11,},
     {"id":{"name":"sGoldOre","path":"sprites/sGoldOre/sGoldOre.yy",},"order":4,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":0,},
     {"id":{"name":"inv_remove","path":"scripts/inv_remove/inv_remove.yy",},"order":1,},
@@ -101,6 +103,7 @@
     {"id":{"name":"oBreakableParent","path":"objects/oBreakableParent/oBreakableParent.yy",},"order":1,},
     {"id":{"name":"oStartScreen","path":"objects/oStartScreen/oStartScreen.yy",},"order":2,},
     {"id":{"name":"tCaveFloor","path":"tilesets/tCaveFloor/tCaveFloor.yy",},"order":0,},
+    {"id":{"name":"rmDeath","path":"rooms/rmDeath/rmDeath.yy",},"order":4,},
     {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},"order":1,},
     {"id":{"name":"sZombieWalk","path":"sprites/sZombieWalk/sZombieWalk.yy",},"order":2,},
     {"id":{"name":"oGoldOre","path":"objects/oGoldOre/oGoldOre.yy",},"order":7,},
@@ -118,6 +121,7 @@
     {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"roomId":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
     {"roomId":{"name":"rmCave","path":"rooms/rmCave/rmCave.yy",},},
+    {"roomId":{"name":"rmDeath","path":"rooms/rmDeath/rmDeath.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

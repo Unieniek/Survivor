@@ -131,3 +131,8 @@ if(distance_to_object(oEnemyParent) < 6){
 }
 
 
+//death
+if(controller.hp = 0){
+
+}
+
