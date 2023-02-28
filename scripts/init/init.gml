@@ -18,5 +18,5 @@ global.itemSprite[ITEM.SAPLING] = sSapling;
 
 
 //max number of items in inventory (macro is a global constant)
-#macro INV_SIZE 12
+#macro INV_SIZE 100
 }

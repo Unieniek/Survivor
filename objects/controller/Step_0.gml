@@ -58,11 +58,6 @@ view_set_camera(0, _camera);
 //	JC = true;
 //}
 
-//player hp
-if(hp > 10){
-hp = 10;
-}
-
 //changing between using an apple and a sapling true is sapling false is apple
 if(keyboard_check_pressed(ord("R"))){
 	if(aors = true){

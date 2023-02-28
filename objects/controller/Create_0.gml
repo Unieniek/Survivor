@@ -32,3 +32,12 @@ hpMax = hp;
 
 //apple or sapling
 aors = true;
+
+//time and day
+tandd =false;
+
+//spawn cooldown
+cooldown = 100;
+
+//time 
+time = 1000;

@@ -46,7 +46,7 @@ if(keyboard_check_pressed(vk_enter)){
 						var _item = splits[1];
 						var _count = splits[2];
 							if (_item == "sapling"){
-								inv_add(_item, splits[2]);
+								inv_add(ITEM.SAPLING, splits[2]);
 								clicked = false;
 							}
 							if(_item == "log"){
@@ -75,6 +75,9 @@ if(keyboard_check_pressed(vk_enter)){
 								clicked = false;
 							}
 							
+						}
+						else if(splits[0] = "god"){
+						controller.hp = 100000;
 						}
 					}
 		}

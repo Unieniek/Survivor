@@ -41,3 +41,64 @@ if (aors = true){
 	//draw_set_halign(fa_middle);
 	draw_text(150, 160, "apple")
 }
+if(keyboard_check_pressed(ord("M"))){
+	if(tandd = false){
+	tandd = true;
+	}else{
+	tandd = false;
+	}
+}
+if(time > -10000){
+time--;
+}
+if(time = -10000){
+time = 10000;
+}
+if(time <= 5000 && time > 4000 or time > -5000 && time <= -4000){
+	draw_set_alpha(0.1);
+	draw_rectangle(0, 0 , 320, 180, 0);
+}else if(time <= 4000 && time > 3000 or time > -4000 && time <= -3000){
+	draw_set_alpha(0.2);
+	draw_rectangle(0, 0 , 320, 180, 0);
+}
+else if(time <= 3000 && time > -3000){
+	if(time <= 3000 && time > 2000 or time > -3000 && time <= -2000){
+	draw_set_alpha(0.3);
+	draw_rectangle(0, 0 , 320, 180, 0);
+	}
+	if((time <= 2000 && time > 1000) or (time > -2000 && time <= -1000)){
+	draw_set_alpha(0.4);
+	draw_rectangle(0, 0 , 320, 180, 0);
+	}
+	if(time <= 1000 && time > -1000){
+	draw_set_alpha(0.5);
+	draw_rectangle(0, 0 , 320, 180, 0);
+	}
+	instance_activate_object(oEnemyParent);
+	if(cooldown = 0){
+		randomise();
+		var _xz = irandom_range(100, 300);
+		var _yz = irandom_range(100, 300);
+		rand = irandom(3);
+		if (rand = 0){
+			instance_create_layer(oPlayer.x +_xz, oPlayer.y + _yz, "Instances", oZombie);
+			cooldown = 100;
+		}else if(rand = 1){
+			instance_create_layer(oPlayer.x -_xz, oPlayer.y - _yz, "Instances", oZombie);
+			cooldown = 100;
+		}else if(rand = 2){
+			instance_create_layer(oPlayer.x -_xz, oPlayer.y + _yz, "Instances", oZombie);
+			cooldown = 100;
+		}else if(rand = 3){
+			instance_create_layer(oPlayer.x +_xz, oPlayer.y - _yz, "Instances", oZombie);
+			cooldown = 100;
+		}
+	}else if (cooldown > 0){
+		cooldown--;
+	}
+
+}else if(time > 5000 or time < -5000){
+instance_destroy(oEnemyParent);
+}	
+
+show_debug_message(time);

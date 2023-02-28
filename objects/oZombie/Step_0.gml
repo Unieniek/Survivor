@@ -5,7 +5,7 @@
 event_inherited();
 
 //distance to player
-if(distance_to_object(oPlayer) > 30){
+if(distance_to_object(oPlayer) > 60){
 	//if destination is reached
 	if(xgoto = x && ygoto = y){
 		//if cooldown is down
@@ -56,7 +56,7 @@ if(distance_to_object(oPlayer) > 30){
 		ygoto = y;
 }
 //if distance to player is shorter than 60
-}else if(distance_to_object(oPlayer) <= 30){
+}else if(distance_to_object(oPlayer) <= 60){
 	//making a player coordinates a final destination
 	xgoto = oPlayer.x;
 	ygoto = oPlayer.y;

@@ -81,27 +81,32 @@ var _count = _arr[1];
 
 
 
-
+	//if apple or sappling is true than select sapling
 	if(controller.aors = true){
 		//placing a sapling
 		if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32 && _item = 6 && _count > 0){
-			show_debug_message("chuj1")
+		//adding value to item sapling
 		inv_add(ITEM.SAPLING, -1);
-	
+		//place a sapling 
 		instance_create_layer(mouse_x, mouse_y,"Instances", oSapling);
+		//restart sapling cooldown
 		sapling_cooldown = 100;
 		}
+	//if apple or sapling is false choose apple
 	}else if (controller.aors = false){
-		
+		//if mouse right button is pressed
 		if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _item = 0 && _count > 0){
-			show_debug_message("Chuj2")
+			//if controller is equal or lower to five
 			if(controller.hp <= 5){
+			//substract one apple from inventory
 			inv_add(ITEM.APPLE, -1);
+			//add 5 hp
 			controller.hp += 5;
-			
+			//if hp is in range from 5 to 10
 			}else if(controller.hp > 5 && controller.hp <10){
 			inv_add(ITEM.APPLE, -1);
 			controller.hp = 10;
+			//if hp is equal to 10
 			}else if(controller.hp = 10){
 			controller.hp = 10;
 			}
