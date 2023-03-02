@@ -47,6 +47,7 @@
     {"name":"oStone","order":4,"path":"objects/oStone/oStone.yy",},
     {"name":"oEnemyParent","order":2,"path":"objects/oEnemyParent/oEnemyParent.yy",},
     {"name":"sDiamondDrop","order":1,"path":"sprites/sDiamondDrop/sDiamondDrop.yy",},
+    {"name":"oClock","order":7,"path":"objects/oClock/oClock.yy",},
     {"name":"sCommandBox","order":2,"path":"sprites/sCommandBox/sCommandBox.yy",},
     {"name":"oButtonInv","order":1,"path":"objects/oButtonInv/oButtonInv.yy",},
     {"name":"sStone","order":5,"path":"sprites/sStone/sStone.yy",},
@@ -79,5 +80,6 @@
     {"name":"rmStart","order":2,"path":"rooms/rmStart/rmStart.yy",},
     {"name":"oCommandBox","order":4,"path":"objects/oCommandBox/oCommandBox.yy",},
     {"name":"oAppleTree","order":3,"path":"objects/oAppleTree/oAppleTree.yy",},
+    {"name":"sClock","order":5,"path":"sprites/sClock/sClock.yy",},
   ],
 }

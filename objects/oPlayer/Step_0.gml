@@ -86,7 +86,7 @@ var _count = _arr[1];
 		//placing a sapling
 		if(mouse_check_button(mb_right) && sapling_cooldown = 0 && _placable < 32 && _item = 6 && _count > 0){
 		//adding value to item sapling
-		inv_add(ITEM.SAPLING, -1);
+		inv_add(ITEM.SAPLING,-1);
 		//place a sapling 
 		instance_create_layer(mouse_x, mouse_y,"Instances", oSapling);
 		//restart sapling cooldown
@@ -99,12 +99,12 @@ var _count = _arr[1];
 			//if controller is equal or lower to five
 			if(controller.hp <= 5){
 			//substract one apple from inventory
-			inv_add(ITEM.APPLE, -1);
+			inv_add(ITEM.APPLE,-1);
 			//add 5 hp
 			controller.hp += 5;
 			//if hp is in range from 5 to 10
 			}else if(controller.hp > 5 && controller.hp <10){
-			inv_add(ITEM.APPLE, -1);
+			inv_add(ITEM.APPLE,-1);
 			controller.hp = 10;
 			//if hp is equal to 10
 			}else if(controller.hp = 10){

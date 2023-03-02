@@ -73,6 +73,7 @@
     {"id":{"name":"ftUI","path":"fonts/ftUI/ftUI.yy",},"order":0,},
     {"id":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"order":2,},
     {"id":{"name":"sDiamondDrop","path":"sprites/sDiamondDrop/sDiamondDrop.yy",},"order":1,},
+    {"id":{"name":"oClock","path":"objects/oClock/oClock.yy",},"order":7,},
     {"id":{"name":"sCommandBox","path":"sprites/sCommandBox/sCommandBox.yy",},"order":2,},
     {"id":{"name":"oButtonInv","path":"objects/oButtonInv/oButtonInv.yy",},"order":1,},
     {"id":{"name":"sStone","path":"sprites/sStone/sStone.yy",},"order":5,},
@@ -114,6 +115,7 @@
     {"id":{"name":"oCommandBox","path":"objects/oCommandBox/oCommandBox.yy",},"order":4,},
     {"id":{"name":"sIdle","path":"sprites/sIdle/sIdle.yy",},"order":0,},
     {"id":{"name":"oAppleTree","path":"objects/oAppleTree/oAppleTree.yy",},"order":3,},
+    {"id":{"name":"sClock","path":"sprites/sClock/sClock.yy",},"order":5,},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},"order":0,},
   ],
   "RoomOrderNodes": [

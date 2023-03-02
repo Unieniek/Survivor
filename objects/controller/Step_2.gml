@@ -9,8 +9,10 @@ with (all){
 	if(_playerExists && _heldItem == id){
 	depth -= 10;
 	
-	}
+	}	
 }
-with (oCommandBox){
-depth -= 20;
-}
+
+
+//with (oCommandBox){
+//depth -= 20;
+//}
