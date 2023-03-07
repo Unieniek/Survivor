@@ -43,35 +43,35 @@ if(keyboard_check_pressed(vk_enter)){
 				
 					if(keyboard_check_pressed(vk_enter)){
 						if(splits[0] == "give" && slot>2){
-						var _item = splits[1];
-						var _count = splits[2];
-							if (_item == "sapling"){
-								inv_add(ITEM.SAPLING, splits[2]);
+						var _item2 = splits[1];
+						var _count2 = splits[2];
+							if (_item2 == "sapling"){
+								inv_add(ITEM.SAPLING,_count2);
 								clicked = false;
 							}
-							if(_item == "log"){
-								inv_add(ITEM.LOG, splits[2]);
+							else if(_item2 == "log"){
+								inv_add(ITEM.LOG,_count2);
 								clicked = false;
 							}
-							if(_item == "apple"){
-								inv_add(ITEM.APPLE, splits[2]);
+							else if(_item2 == "apple"){
+								inv_add(ITEM.APPLE,_count2);
 								clicked = false;
 							}
-							if(_item == "stone"){
-								inv_add(ITEM.STONE, splits[2]);
+							else if(_item2 == "stone"){
+								inv_add(ITEM.STONE,_count2);
 								clicked = false;
 							}
-							if(_item == "iron"){
-								inv_add(ITEM.IRON, splits[2]);
+							else if(_item2 == "iron"){
+								inv_add(ITEM.IRON,_count2);
 								clicked = false;
 							}
-							if(_item == "diamond"){
-								inv_add(ITEM.DIAMOND, splits[2]);
+							else if(_item2 == "diamond"){
+								inv_add(ITEM.DIAMOND,_count2);
 								clicked = false;
 							}
 							
-							if(_item == "gold"){
-								inv_add(ITEM.GOLD, splits[2]);
+							else if(_item2 == "gold"){
+								inv_add(ITEM.GOLD,_count2);
 								clicked = false;
 							}
 							
@@ -79,6 +79,7 @@ if(keyboard_check_pressed(vk_enter)){
 						else if(splits[0] = "god"){
 						controller.hp = 100000;
 						controller.hpMax = 100000;
+						clicked = false;
 						}
 					}
 		}
