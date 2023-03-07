@@ -135,4 +135,9 @@ if(distance_to_object(oEnemyParent) < 6){
 if(controller.hp = 0){
 
 }
+if(room = rmCave){
+	if(keyboard_check_pressed(ord("T"))){
+	room_goto(rmGame);
+	}
+}
 

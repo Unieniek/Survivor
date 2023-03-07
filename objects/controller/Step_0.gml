@@ -45,18 +45,28 @@ view_visible[0] = true;
 view_set_camera(0, _camera);
 }
 else if(JC = true){
-var _camera = camera_create_view(0, 0, 720, 1280, 0, oPlayer, -1, -1, 720/2, 1280/2)
+	if(oJC.wait = 0){
+	camera_destroy(view_camera);
+	surface_resize(application_surface, 3000 / 2, 1500 / 2);
+	var _windowWidth = 3000 / 2;
+	var _windowHeight = 1500 / 2;
+	window_set_size(_windowWidth, _windowHeight);
+	instance_destroy(oBreakableParent);
+	instance_destroy(oCave);
+	instance_destroy(oCommandBox);
+	
 
+////view
+//view_enabled = true;
+//view_visible[0] = true;
 
-//view
-view_enabled = true;
-view_visible[0] = true;
-
-view_set_camera(0, _camera);
+//view_set_camera(0, _camera);
+	}
 }
-//if(keyboard_check_pressed(ord("F"))){
-//	JC = true;
-//}
+if(keyboard_check_pressed(ord("F"))){
+	JC = true;
+	audio_play_sound(snSound, 1, true);
+}
 
 //changing between using an apple and a sapling true is sapling false is apple
 if(keyboard_check_pressed(ord("R"))){

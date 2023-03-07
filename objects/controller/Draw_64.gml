@@ -52,7 +52,7 @@ if(keyboard_check_pressed(ord("M"))){
 }
 if(!pause){
 	if(time > -10000){
-	time--;
+	time-=10;
 	}
 	if(time = -10000){
 	time = 10000;
